@@ -1,0 +1,125 @@
+/* Importing universal fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+  /* Fontawesome usage example::after
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f0a9"; */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h2::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f07a";
+
+    position: relative;
+    left: -5px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header, 
+article {
+    border: 2px solid gray;
+    text-align: center;
+}
+
+header {
+    display: block;
+    background-color: rgb(236, 236, 236);
+    border-bottom: none;
+    padding: 30px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.3em;
+    color: rgb(76, 76, 76);
+}
+
+article {
+    border-top: none;
+}
+
+.container {
+    max-width: 70%;
+}
+
+.content-container {
+    display: flex;
+}
+
+
+.advertise-section {
+    flex-basis: 30%;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.traveler-content>p {
+    text-align: start;
+    padding: 10px;
+}
+
+.booking-section {
+    flex-basis: 70%;
+}
+
+.booking-section>select,
+input {
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.booking-section>select {
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+input {
+    width: 10rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-btn {
+    border-radius: 15px;
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: rgb(229, 74, 74);
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    background-color: rgb(205, 47, 61);
+}

@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+    }
+    main {
+        width: 100%;
+    }
+    button {
+        display: none;
+    }
+    h1 {
+        font-size: 2.0rem !important;
+    }
+    .left-to-right {
+        background-size: contain;
+        padding: 5% !important;
+    }
+    .left-to-right>article:first-child {
+        border-radius: 15%;
+        margin: auto;
+        padding: 30px;
+        width: 90%;
+        overflow: hidden;
+    }
+    main section:nth-child(2), main section:nth-child(4) {
+        flex-direction: column;
+        max-width: 98vw;
+    }
+    main section:nth-child(4)>article {
+        margin-left: unset;
+        text-align: center;
+    }
+    main section:nth-child(4)>article>form {
+        width: 98vw;
+    }
+    section form label input, section form textarea {
+        width: 70%;
+    }
+}
