@@ -1,6 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 html {
     font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    height: 100vh;
+    position: relative;
+    background: rgb(233, 233, 233);
+}
+
+.login-wrapper {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 10px 42px -20px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    flex-basis: 50%;
+    background-image: url("./images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo header {
+    align-self: flex-start;
+    font-size: 0.7em;
+}
+
+.logo header::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+.logo article {
+    text-align: center;
+}
+
+.login-form {
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+.form-element-container {
+    display: flex;
+    flex-flow: column;
+    color: rgb(204, 204, 204);
+}
+
+.form-element-container label {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 0.8em;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    outline: none;
+    offset-position: 5px;
+}
+
+
+
+.form-button-container>* {
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 25px 0;
+    transform: translate(0%, 55%);
+}
+
+.register-btn {
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.login-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 0.6em;
+    color: rgb(173, 169, 169);
+    text-decoration: underline;
 }
