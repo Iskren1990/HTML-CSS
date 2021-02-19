@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+/* Reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* end */
+
+/* Global */
+
+html {
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+body {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* end */
+
+header * {
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("/04-Whiteboard/Requirements-and-Resources/image/computer-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-shadow: 0px 2px 8px black;
+}
+
+.banner nav {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.banner nav>*:hover{
+    font-size: 1.1em;
+}
+
+.banner section {
+    text-align: center;
+}
+.banner h1 {
+    margin: 40px;
+    font-size: 3.5rem;
+}
+
+.banner section p {
+    font-size: 1.5rem;
+    max-width: 60%;
+    margin: auto;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px;
+    height: 40vh;
+}
+
+.buttons-wrapper button {
+    margin: 30px auto;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    text-shadow: 0px 2px 8px black;
+    font-size: 1.1rem;
+}
+
+.buttons-wrapper .header-buy-btn {
+    background-color: rgb(0, 208, 142);
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.buttons-wrapper .header-buy-btn:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+}
+
+/* Introduction section */
+.introduction {
+    display: flex;
+
+}
+
+.introduction>*{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.intro-description {
+    padding: 30px;
+}
+
+.intro-description h3 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.intro-description p {
+    margin: 20px auto;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.bullets-list li {
+    margin: 10px 0;
+}
+
+.bullets-list li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    font-weight: 900;
+    margin: 0px 15px;
+    color: rgb(0, 208, 142);
+}
+
+.centered-description{
+    text-align: center;
+}
+
+.svg-bullets-list {
+    color: rgb(0, 208, 142);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+ li {
+    flex-basis: 25%;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.svg-bullets-list p {
+    margin: 5px auto;
+}
+
+.svg-bullets-list img {
+    width: 60%;
+    object-fit: cover;
+}
+/* end */
+
+/* questions section */
+
+.questions {
+    text-align: center;
+    background-color: rgb(178, 241, 221);
+}
+
+.questions h1 {
+    padding: 20px;
+}
+
+.question-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question-wrapper>* {
+    flex-basis: 25%;
+    margin: 30px;
+}
+
+.question-wrapper>*>p{
+    font-size: 0.9rem;
+}
+
+.footer {
+    padding: 30px;
+}
