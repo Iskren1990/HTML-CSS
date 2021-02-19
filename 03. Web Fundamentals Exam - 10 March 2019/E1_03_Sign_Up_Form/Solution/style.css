@@ -1,0 +1,101 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(235, 240, 240);
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    width: 30%;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+legend {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(36, 140, 209);
+    margin-bottom: 30px;
+}
+
+.field-wrapper {
+    flex-basis: 100%;
+    margin: 5px 0;
+    position: relative;
+}
+
+.field-wrapper>* {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.field-wrapper>label {
+    color: rgb(196, 185, 190);
+    position: relative;
+}
+
+.field-wrapper>label::before {
+    content: "*";
+    position: absolute;
+    color: rgb(252, 59, 63);
+    transform: translate(-110%, -10%);
+}
+
+.field-wrapper>input {
+    border: none;
+    border-radius: 3px;
+    text-indent: 30px;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+i {
+    position: absolute;
+    font-size: 0.8rem;    
+    left: 5px;
+    bottom: 1px
+}
+
+i::after {
+    content: "  ";
+    border-right: 1px solid rgb(196, 185, 190);
+    padding: 3px;
+}
+
+.field-btn-wrapper {
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.field-btn-wrapper>input {
+    margin: 20px 0;
+    background-color: rgb(0, 122, 204);
+    color: rgb(255,255,255);
+    font-size: 1.1em;
+    padding: 8px 43%;
+    border: none;
+    border-radius: 3px;
+}
