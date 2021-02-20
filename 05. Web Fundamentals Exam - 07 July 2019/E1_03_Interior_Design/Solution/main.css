@@ -1,0 +1,74 @@
+main {
+    flex:  1 0 80%;
+    background-color: rgb(242, 240, 243);
+}
+
+.services,
+.contacts {
+    padding: 40px;
+}
+
+
+.services li {
+    margin: 20px 0;
+    font-size: 0.9rem;
+}
+
+.services li::before {
+    content: "\f0a9";
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.services h1,
+.contacts h1,
+.services li strong {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contacts h1::after {
+    content: "";
+    position: relative;
+    left: -40px;
+    width: calc(100% + 80px);
+    height: 2px;
+    background-color: rgb(130, 130, 130);
+    display: block;
+    margin: 10px 0;
+}
+
+.contacts ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+}
+
+.contacts li {
+    margin: 10px;
+}
+
+.contacts li strong {
+    font-style: italic;
+}
+
+.mail-wrapper>*{
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    margin: 40px 5px;
+}
+
+.mail-wrapper input {
+    background-color: rgb(186, 177, 173);
+    width: 30%;
+}
+
+
+.mail-wrapper button {
+    background-color: rgb(103, 120, 77);
+}

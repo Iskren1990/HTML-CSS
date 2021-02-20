@@ -1,0 +1,18 @@
+aside {
+    flex: 1 0 20%;
+    background-color: rgb(186, 177, 173);
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside article p:first-child {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+aside article p:last-child {
+    text-transform: uppercase;
+}
