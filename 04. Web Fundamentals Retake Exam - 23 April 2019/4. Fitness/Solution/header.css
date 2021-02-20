@@ -1,0 +1,64 @@
+.contacts {
+    background-color: rgb(208, 25, 25);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.contacts .social-media ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 120px;
+}
+
+.banner {
+    background-image: url("/4. Fitness/Requirements-and-Resources/image/fitness-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-top ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%;
+    font-size: 0.7em;
+    padding: 20px 0;
+}
+
+.banner-intro {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 1 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-intro h1 {
+    font-size: 3.5em;
+}
+
+.banner-intro p {
+    max-width: 70%;
+}
+
+.banner-intro button {
+    padding: 8px 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(208, 25, 25);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}

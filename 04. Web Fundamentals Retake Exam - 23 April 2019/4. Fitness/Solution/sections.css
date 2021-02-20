@@ -1,0 +1,86 @@
+.coaches {
+    background-color: rgb(219, 216, 216);
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+
+    margin: 30px auto;
+}
+
+.welcome .wrapper {
+    justify-content: center;
+}
+
+.coaches .wrapper {
+    justify-content: space-between
+}
+
+.welcome,
+.coaches {
+    padding: 40px;
+}
+
+
+.welcome>h3,
+.coaches>h3 {
+    padding: 30px;
+    font-family: 'PT Sans', serif, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(208, 25, 25);
+    width: 30px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper>* {
+    flex-basis: 25%;
+    margin: 0 40px;
+}
+
+.svg img {
+    width: 20%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.svg h5,
+.pic div p {
+    color: rgb(208, 25, 25);
+}
+
+.welcome h5,
+.coaches .wrapper div{
+    font-size: 1.3em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.coaches .wrapper div>*{
+    display: block;
+    margin: auto;
+}
+
+.wrapper p {
+    max-width:  95%;
+    margin: auto;
+    font-size: 0.8em;
+}
+
