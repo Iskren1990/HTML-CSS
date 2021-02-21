@@ -1,0 +1,52 @@
+header {
+    background-color: rgb(35, 68, 101);
+}
+
+header * {
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.main-nav-section, ul, .logo, .sub-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+.site-nav-main li>a,
+.site-nav-main li>i{
+    color: rgb(134, 161, 178);
+}
+
+.logo>*, .site-nav-main>* {
+    margin: auto 10px;
+}
+
+.sub-nav-color {
+    background-color: aliceblue;
+}
+
+.sub-nav {
+    justify-content: flex-start;
+}
+
+.sub-nav>* {
+    padding: 10px 0px;
+    margin: 0px 10px;
+    font-size: 0.7rem;
+}
+
+.sub-nav *:first-child {
+    color: rgb(255, 160, 0);
+    font-weight: lighter;
+}
+
+.sub-nav *:last-child {
+    color: rgb(35, 68, 101);
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(35, 68, 101);
+}
