@@ -1,0 +1,25 @@
+@media all and (max-width: 768px) {
+    body {
+        padding-top: 5rem;
+    }
+    main .wrapper.style2 {
+        padding: 1rem;
+    }
+
+    .style2 .gallery {
+        flex-direction: column;
+    }
+
+    .style2 .gallery>* {
+        width: unset;
+    }
+
+    .spotlight .inner {
+        padding: 2rem;
+    }
+
+    .spotlight > * {
+        width: unset;
+        text-align: center;
+    }
+}
