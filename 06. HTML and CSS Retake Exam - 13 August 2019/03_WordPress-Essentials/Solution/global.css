@@ -1,0 +1,53 @@
+.btn-orange {
+    padding: 0.5em 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 160, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.enroll-btn {
+    width: 300px;
+}
+
+.size-wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+
+.underline-section {
+    text-align: center;
+    background-color: rgb(214, 205, 205);
+    margin: 10px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.underline-section h1 {
+    color: rgb(58, 98, 134);
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.underline-section h1::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background-color: rgb(255, 160, 0);
+    left: 10%;
+    bottom: 0;
+}
+
+.orange-section h1::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    left: 10%;
+    bottom: 0;
+}

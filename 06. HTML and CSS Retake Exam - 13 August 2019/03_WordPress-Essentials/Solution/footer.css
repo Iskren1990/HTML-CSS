@@ -1,0 +1,43 @@
+footer {
+    font-size: 0.7rem;
+    background-color: rgb(25, 48, 71);
+    color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+footer>div.size-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3 {
+    color: rgb(255, 160, 0);
+    margin: 20px 0px;
+}
+
+footer ul {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+.social {
+    max-width: 15%;
+    position: relative;
+}
+
+.social>* {
+    margin: 15px 0;
+}
+
+.social-media {
+    flex-direction: row;
+    width: 100px;
+}
+
+.social p {
+    color: rgb(35, 68, 101);
+}

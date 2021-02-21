@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=PT+Sans&family=PT+Serif&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
-
 /* Reset */
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;

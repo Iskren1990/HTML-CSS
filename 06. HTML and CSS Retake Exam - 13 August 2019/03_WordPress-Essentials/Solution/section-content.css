@@ -1,0 +1,157 @@
+.class-description {
+    color: rgb(35, 68, 101);
+    margin: 30px 20px;
+    text-align: left;
+}
+
+.class-awsome-decorated-list {
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 30px 20px;
+    justify-content: space-between;
+}
+
+.class-awsome-decorated-list li {
+    flex-basis: 50%;
+    padding: 5px auto;
+    color: rgb(106, 86, 86);
+}
+
+.class-awsome-decorated-list li::before {
+    content: "\f19d";
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    color: rgb(255, 160, 0);
+    margin: auto 5px;
+}
+
+.class-lectures {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin: 30px 20px;
+    counter-reset: my-awesome-counter;
+}
+
+.class-lectures li {
+    counter-increment: my-awesome-counter;
+    flex-basis: 45%;
+    margin: 5px auto;
+    padding: 10px 0;
+    color: rgb(86, 86, 86);
+    font-weight: bold;
+    font-size: 0.8rem;
+    background-color: rgb(218, 218, 218);
+}
+
+.class-lectures li::before {
+    content: counter(my-awesome-counter);
+    color: rgb(35, 68, 101);
+    border-left: 2px solid rgb(35, 68, 101);
+    padding: 10px 10px;
+    font-weight: bold;
+    background-color: rgb(218, 218, 218);
+}
+
+.orange-section {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 160, 0);
+}
+
+.orange-section h1 {
+    color: rgb(255, 255, 255);
+}
+
+.orange-section p {
+    text-align: left;
+    margin: 15px 30px;
+    line-height: 1.6em;
+}
+
+.lecturer-details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgb(86, 86, 86);
+    margin: 30px;
+}
+
+.lecturer-details img {
+    border-radius: 50%;
+    width: 8rem;
+}
+
+.lecturer-summary {
+    margin: 0px 20px;
+}
+
+.lecturer-summary h3 {
+    color: rgb(35, 68, 101);
+    margin-bottom: 20px;
+}
+
+.course-information {
+    text-align: left;
+}
+
+.course-information article {
+    margin-bottom: 10px;
+}
+
+.course-information article>h3 {
+    color: rgb(255, 160, 0);
+}
+
+.course-information article>p {
+    color: rgb(35, 68, 101);
+}
+
+.floating-section {
+    position: relative;
+    transform: translateY(17%);
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.75);
+}
+
+.course-information ul {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.course-information-live, .course-information-remote {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+}
+
+.course-information-live>h3, .course-information-remote>h3 {
+    flex: 0 0 30%;
+}
+
+.course-information li {
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.course-information li::before {
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.5rem;
+    padding: 5px;
+    margin: auto;
+}
+
+.course-information-live {
+    background-color: rgb(255, 160, 0);
+}
+
+.course-information-remote {
+    background-color: rgb(35, 68, 101);
+}
+
+.button-section {
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+}
