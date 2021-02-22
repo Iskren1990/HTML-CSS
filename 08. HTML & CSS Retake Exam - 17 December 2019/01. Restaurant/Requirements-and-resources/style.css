@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=PT+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+section:first-child {
+    display: flex;
+}
+
+article {
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    margin: auto 20%;
+}
+
+.book-dinner-section {
+    flex: 0 0 40%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    object-fit:fill;
+}
+
+h1 {
+    font-size: 0.6rem;
+    width: 80%;
+    margin: 30px auto;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 1px solid rgb(72, 72, 72);
+    font-size: 0.5rem;
+    background-color: transparent;
+    padding: 5px;
+    margin-top:15px;
+}
+
+input[type="submit"] {
+    width: unset;
+    border-radius: 5px;
+
+    padding: 10px 20px;
+    background-color: rgb(237, 183, 125);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
