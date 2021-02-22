@@ -1,0 +1,48 @@
+header {
+    background-color: rgb(249, 55, 0);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header * {
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0px 10px;
+}
+.search {
+    display: flex;
+}
+
+.search input {
+    border: 1px solid rgb(184, 184, 184);
+    width: 15rem;
+    color: rgb(139, 138, 138);
+    text-indent: 10px;
+}
+
+.search button {
+    background-color: rgb(182, 175, 175);
+    padding: 5px 10px;
+}
+
+.account::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: relative;
+    margin-right: 5px;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+}

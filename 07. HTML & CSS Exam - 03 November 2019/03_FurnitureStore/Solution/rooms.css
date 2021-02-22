@@ -1,0 +1,17 @@
+.rooms {
+    justify-content: space-between;
+}
+
+.rooms>*{
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 0.7rem;
+}
+
+.rooms p{
+    font-size: 0.7rem;
+}
+
+.rooms>*>img {
+    width: 100%;
+}

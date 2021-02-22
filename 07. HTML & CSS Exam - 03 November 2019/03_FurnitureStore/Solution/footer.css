@@ -1,0 +1,30 @@
+footer * {
+    font-size: 0.6rem;
+    color: rgb(147, 131, 128);;
+}
+
+footer article,
+footer section {
+    display: flex;
+}
+
+footer {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+li,
+footer article>* {
+    margin: 5px;
+}
+
+footer button {
+    background-color: rgb(202, 195, 195);
+    border: none;
+    padding: 5px 30px;
+    border-radius: 2px;
+}
+
+i {
+    font-size: 1rem;
+}

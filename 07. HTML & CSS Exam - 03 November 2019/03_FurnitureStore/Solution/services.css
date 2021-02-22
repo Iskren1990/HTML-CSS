@@ -1,0 +1,27 @@
+.services {
+    background-color: rgb(202, 195, 195);
+    justify-content: space-around;
+    padding: 5% 10%;
+}
+
+.services>* {
+    flex: 0 1 25%;
+    text-align: center;
+}
+
+
+.services img {
+    border-radius: 50%;
+    background-color: rgb(240, 228, 228);
+    padding: 10%;
+}
+
+.services h3,
+.services p {
+    font-size: 0.7rem;
+}
+
+.services h3 {
+    color: rgba(0, 0, 0, 0.60);
+    margin: 10px;
+}

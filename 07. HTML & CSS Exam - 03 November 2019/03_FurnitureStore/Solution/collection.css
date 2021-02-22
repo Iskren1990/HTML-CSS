@@ -1,0 +1,22 @@
+.collection>article:nth-child(1) {
+    flex: 1 0 40%;
+    padding-top: 30px;
+}
+
+.collection h1 {
+    color: rgb(249, 55, 0);
+}
+
+.collection p,
+.collection button {
+    margin-top: 15px;
+    font-size: 0.5rem;
+}
+
+.collection button {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(249, 55, 0);
+    color: rgb(255,255,255);
+    padding: 10px;
+}
