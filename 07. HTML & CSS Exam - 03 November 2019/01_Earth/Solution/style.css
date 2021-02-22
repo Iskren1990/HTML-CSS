@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Open+Sans&family=PT+Sans&family=PT+Serif&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header,
+.description,
+.facts
+ {
+    padding: 5px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 50%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+header h1 {
+    color: rgb(18, 213, 201);
+}
+
+header p {
+    color: rgb(255,255,255);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0;
+}
+
+.description {
+    display: flex;
+}
+
+.description>article {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px 10px;
+    flex: 1 0 40%;
+    margin: 5px;
+    /* height: 300px; */
+}
+
+.description>article>p {
+    font-size: 0.7rem
+}
+
+.description p {
+    font-size: 0.8rem;
+    flex-basis: 60%;
+    margin: 5px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.facts::before {
+    content: "Facts about Earth";
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    padding: 3px;
+} 
+
+.facts {
+    position: relative;
+    background-color: rgb(186, 199, 199);
+    margin-top: 40px;
+}
+
+.facts ul li>* {
+    display: inline;
+}
