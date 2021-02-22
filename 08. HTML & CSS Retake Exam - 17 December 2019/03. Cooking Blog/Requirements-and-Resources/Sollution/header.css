@@ -1,0 +1,84 @@
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: rgb(100, 96, 97);
+    background-color: rgb(230, 227, 222);
+}
+
+.nav-section * {
+    font-size: 1.2rem;
+}
+
+.nav-section h3 {
+    font-size: 1.6rem;
+}
+
+nav {
+    min-width: 25%;
+    font-weight: lighter;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li a {
+    color: rgb(100, 96, 97);
+}
+
+.nav-login button {
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(85, 73, 56);
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-login i {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-size: 900;
+    margin-left: 20px;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-image: url("/03. Cooking Blog/Requirements-and-Resources/Media/craving.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    flex: 1 0 100%;
+    margin: 20px;
+}
+
+.banner input {
+    padding: 5px;
+    border: none;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner .wrapper i {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-size: 900;
+    position: relative;
+    color: rgb(112, 103, 103);
+    padding: 3px;
+    transform: translateX(150%);
+}

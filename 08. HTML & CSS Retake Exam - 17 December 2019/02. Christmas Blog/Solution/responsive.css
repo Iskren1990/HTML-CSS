@@ -1,0 +1,43 @@
+@media all and (max-width: 1236px) {
+    main {
+        justify-content: center;
+    }
+    main ul {
+        display: flex;
+        flex: 0 1 20%;
+        flex-direction: column;
+    }
+
+    ul .big_article .article {
+        height: unset;
+        width: unset;
+
+    }
+
+    ul .big_article {
+        flex: 1 0 30%;
+    }
+
+    .article_image {
+        height: unset;
+    }
+
+    main h3 {
+        font-size: unset;
+    }
+
+    .row_articles {
+        flex-direction: column;
+        flex: 1 0 70%;
+    }
+
+    .row_articles .article {
+        height: unset;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 768px) {
+    
+}

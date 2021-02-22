@@ -1,0 +1,90 @@
+main {
+    background: url("/03. Cooking Blog/Requirements-and-Resources/Media/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-wrapper {
+    max-width: 1200px;
+    padding: 50px;
+    margin: auto;
+}
+
+.offer {
+    display: flex;
+    margin: 50px;
+}
+
+.offer .offer-image {
+    flex: 0 0 60%;
+}
+
+.offer-image img {
+    width: 100%;
+    object-fit:cover;
+}
+
+.offer-description {
+    background-color: rgb(230, 227, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.offer-description p {
+    padding: 5px 0;
+}
+
+.offer-description button {
+    padding: 5px 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 73, 56);
+    margin-top: 20px;
+}
+
+.toolbox {
+    text-align: center;
+}
+
+.toolbox ul,
+.toolbox li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0;
+    margin: 15px 35px;
+}
+
+.toolbox li {
+    flex-direction: column;
+}
+
+.toolbox h1{
+    display: inline-block;
+    width: unset;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbox h3 {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.toolbox button {
+    background-color: rgb(219, 77, 53);
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    margin-bottom: 50px;
+}
