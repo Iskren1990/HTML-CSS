@@ -1,0 +1,29 @@
+@media all and (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+    ul>li.main-movie-trailer, 
+    .main-movie-trailer>* {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .main-movie ul {
+        width: 100%;
+    }
+    .main-movie-trailer>* {
+        height: 300px;
+    }
+    .movie-list {
+        flex-wrap: wrap;
+    }
+    li.movie {
+        width: 90%;
+    }
+    .movies.classics {
+        margin: 50px 0 0 0;
+    }
+}
