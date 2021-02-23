@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gelasio&family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=PT+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+main {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.5) 0%, rgba(0,0,0, 0.5)100%), url("/01. Login/image.jpg") no-repeat center/cover ;
+}
+
+.login {
+    text-align: center;
+    margin: auto auto;
+    width: 20%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login h1 {
+    font-weight: lighter;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+.login form label {
+    border-bottom: 1px solid rgb(211, 208, 208);
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.login form input {
+    border: none;
+    text-indent: 60px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.login form label:nth-child(1)::before {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(192, 187, 187);
+    position: absolute;
+    padding: 0 20px;
+}
+
+.login form label:nth-child(2)::before {
+    content: "\f023";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(173, 173, 173);
+    position: absolute;
+    padding: 0 20px;
+
+}
+
+.login form input[type="submit"] {
+    border-radius: 30px;
+    background: rgb(206, 23, 111);
+    padding: 8px;
+    width: 50%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-indent: unset;
+}
