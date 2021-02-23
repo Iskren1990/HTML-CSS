@@ -1,0 +1,22 @@
+footer,
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer{
+    background-color: rgb(140, 140, 140);
+    padding: 40px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.3);
+    padding: 0 5px;
+    margin: 5px;
+}
+
+footer li:not(:last-of-type)>a {
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+}

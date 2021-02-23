@@ -1,0 +1,47 @@
+.articles {
+    margin: 20px auto;
+    width: 90%;
+    color: rgb(85, 91, 94);
+}
+
+.articles h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.articles-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    font-size: 1.7rem;
+    height: 40vw;
+}
+
+.articles-pack {
+    background: center/cover url("/02. Travel Blog/Requirements-and-Resources/images/packing.jpg") no-repeat;
+    flex: 0 1 100%;
+    padding: 40px;
+    text-align: center;
+    width: 40%;
+}
+
+.articles-plan {
+    background: center/cover url("/02. Travel Blog/Requirements-and-Resources/images/planning.jpg") no-repeat;
+    flex: 1 0 50%;
+    text-align: center;
+    width: 60%;
+}
+
+.articles-budget {
+    background: center/cover url("/02. Travel Blog/Requirements-and-Resources/images/budget.jpg") no-repeat;
+    flex: 1 0 50%;
+    position: relative;
+}
+
+.articles-budget h3 {
+    position: absolute;
+    bottom: 0%;
+    padding: 30px 10px;
+}
