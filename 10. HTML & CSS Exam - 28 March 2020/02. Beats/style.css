@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gelasio&family=Lato:wght@100;300;400&family=Noto+Sans+JP&family=Open+Sans:wght@300;400&family=PT+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
 @import url("./nav.css");
 @import url("./main.css");
+@import url("./footer.css");
 
 * {
     box-sizing: border-box;
@@ -21,10 +22,3 @@ html {
 }
 
 
-footer {
-    padding: 50px;
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: 100;
-    color: rgb(65, 65, 65);
-}
