@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gelasio&family=Lato:wght@100;300;400&family=Montserrat&family=Noto+Sans+JP&family=Open+Sans:wght@300;400&family=PT+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+h3, h5, .price {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, h5 {
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+.card {
+    display: flex;
+}
+
+.card>* {
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.card-includes {
+    background-color: rgb(198, 229, 248);
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-includes li {
+    margin: 10px 0;
+}
+
+.card-includes li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: rgb(70, 170, 248);
+    padding-right: 15px;
+
+}
+
+.card-enroll {
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+    border: 3px solid rgb(70, 170, 248);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: rgb(70, 170, 248);
+}
+
+.card-enroll button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 170, 248);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px 40px;
+    margin: 30px;
+}
