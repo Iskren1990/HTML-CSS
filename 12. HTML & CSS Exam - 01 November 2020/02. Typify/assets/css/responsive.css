@@ -1,0 +1,22 @@
+@media all and (max-width: 600px) {
+    .banner h2 {
+        width: unset;
+        font-size: 2.0em;
+    }
+    .wrapper>.inner, .wrapper>.inner.narrow {
+        width: unset;
+    }
+    .feature {
+        width: 90%;
+    }
+    .wrapper.style2 {
+        background-color: rgb(211, 211, 211);
+    }
+    .grid-form {
+        width: 100%;
+        padding: 10px;
+    }
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+}
