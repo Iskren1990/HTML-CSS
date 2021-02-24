@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gelasio&family=Lato:wght@100;300;400&family=Montserrat&family=Noto+Sans+JP&family=Open+Sans:wght@300;400&family=PT+Sans&family=PT+Serif&family=Poppins&family=Roboto:wght@100;400&family=Ubuntu&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
