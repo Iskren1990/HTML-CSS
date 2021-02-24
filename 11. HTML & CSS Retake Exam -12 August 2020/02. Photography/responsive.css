@@ -1,1 +1,22 @@
-/* TODO: Add media queries */
+@media all and (max-width: 600px) {
+    .thumbnails {
+        flex-wrap: wrap;
+    }
+
+    .thumbnails>div {
+        width: 100%;
+        margin: 0 0 2em 0;
+    }
+
+    .thumbnails a img {
+        height: 300px;
+    }
+    
+    footer p {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        justify-content: center;
+        margin: auto;
+    }
+}
