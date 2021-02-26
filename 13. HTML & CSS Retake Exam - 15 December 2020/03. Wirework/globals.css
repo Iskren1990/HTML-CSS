@@ -1,5 +1,4 @@
 @import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
-
 html {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
@@ -8,5 +7,3 @@ html {
 a {
     color: rgb(0, 0, 0);
 }
-
-/* wrench, unlock-alt, legal, key */
