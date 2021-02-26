@@ -1,0 +1,42 @@
+.common-section {
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    padding: 50px 30px 80px 40px;
+}
+
+.common-section>* {
+    flex: 1 0 20%;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.common-section p {
+    opacity: 40%;
+    font-size: 0.8rem;
+    border-top: 1px solid;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.common-section h5 {
+    padding-top: 10px 0;
+}
+
+.card-icon .fas {
+    font-size: 2.5rem;
+    padding: 20px;
+    margin: 10px;
+    background: rgb(226, 78, 42);
+}
+
+.card-icon:nth-child(1) .fas {
+    margin-bottom: 25px;
+}
+
+.no-p-border p {
+    border-top: unset;
+}
