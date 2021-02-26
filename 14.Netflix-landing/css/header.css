@@ -1,0 +1,48 @@
+header {
+    color: rgb(255, 255, 255);
+    background: 100%/cover linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%), url('../resources/BG-en-20210222-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat;
+}
+
+nav {
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.logo {
+    height: 36px;
+    width: 134px;
+}
+
+.btn-red-rounded {
+    padding: 7px 17px;
+    border-radius: 3px;
+    background-color: rgb(229, 9, 20);
+}
+
+.trial {
+    max-width: 950px;
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.trial h1 {
+    max-width: 600px;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.trial h4 {
+    max-width: 600px;
+    font-size: 1.5rem;
+    margin: 30px auto;
+}
+
+.trial p {
+    max-width: 700px;
+    font-size: 1.2rem;
+    margin: 20px auto;
+}

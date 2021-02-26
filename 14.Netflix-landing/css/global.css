@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 100;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 300;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 800;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+
+* {
+    font-size: 16px;
+    font-family: "Netflix Sans";
+}
+
+body {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(255, 255, 255); 
+}
+
+.custom-border {
+    border-bottom: 8px solid rgb(34, 34, 34);
+}
+
+.btn-red-rounded {
+    padding: 7px 17px;
+    border-radius: 3px;
+    background-color: rgb(229, 9, 20);
+}
+
+.btn-red-subscribe {
+    padding: 20px 37px;
+    font-size: 1.5rem;
+    border-radius: 0px 3px 3px 0px;
+    background-color: rgb(229, 9, 20);
+}
+
+.input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.input-wrapper>p {
+    flex: 1 0 100%;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.input-wrapper>input {
+    flex: 1 0;
+    text-indent: 10px;
+}
